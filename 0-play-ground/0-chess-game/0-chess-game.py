@@ -16,7 +16,7 @@ IMAGES = {}
 def loadImages():
     pieces = ['wp', 'bp', 'wR', 'bR', 'wN', 'bN', 'wB', 'bB', 'wQ', 'bQ', 'wK', 'bK']
     for piece in pieces:
-        IMAGES[piece] = pygame.image.load('images/' + piece + '.png')
+        IMAGES[piece] = pygame.image.load('pieces-basic-png/' + piece + '.png')
 
 # Returns a list of all valid moves for a given piece
 def getAllPossibleMoves(piece, board):
