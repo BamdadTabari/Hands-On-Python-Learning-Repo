@@ -9,7 +9,7 @@ def unicode_test(value):
     print(f'value="{value}", name="{name}", value2="{value2}"')
 
 
-unicode_test('@')
+unicode_test('@') # => value="@", name="COMMERCIAL AT", value2="@"
 unicode_test('\u2603') #=> value="☃", name="SNOWMAN", value2="☃"
 #unicode_test('A') #=> value="A", name="LATIN CAPITAL LETTER A", value2="A
 #unicode_test('$') #=> value="$", name="DOLLAR SIGN", value2="$"
