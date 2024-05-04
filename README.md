@@ -24,5 +24,5 @@
 
 # I hope GitHub, is a little different and does not clean this. 
 
-# wrote by Interrupted girl
+# written by Interrupted girl
 
